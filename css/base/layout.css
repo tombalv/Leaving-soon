@@ -2,12 +2,22 @@
     padding: 60px 0;
 }
 .row {
+    display: inline-block;
     width: 1000px;
     margin: 0 calc((100% - 1000px) / 2);
 }
 .row-short {
     width: 600px;
     margin: 0 calc((100% - 600px) / 2);
+}
+.column{
+    width: 50%;
+    float: left;
+    background-color: pink;
+}
+.column-right {
+    margin-left: 10%;
+    width: 40%;
 }
 @media (max-width: 1100px) {
     .row {
@@ -20,6 +30,10 @@
     .row {
         width: 600px;
         margin: 0 calc((100% - 600px) / 2);
+    }
+    .column {
+        width: 100%;
+        margin: 0;
     }
 }
 @media (max-width: 700px) {
