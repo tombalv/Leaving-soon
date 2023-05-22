@@ -11,6 +11,9 @@
     margin: 0 calc((100% - 600px) / 2);
 }
 .column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     width: 50%;
     float: left;
 }
