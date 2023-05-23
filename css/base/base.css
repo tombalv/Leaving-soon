@@ -1,13 +1,14 @@
 :root {
-    --main-color: #03a9f5;
-    --secondary-color:#ea1e63 ;
+  --main-color: #03a9f5;
+  --secondary-color: #ea1e63;
 }
 
-body, body * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body,
+body * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Modern Antiqua;
 }
