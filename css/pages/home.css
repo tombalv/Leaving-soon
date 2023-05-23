@@ -69,3 +69,19 @@ footer.container {
   background-color: #fff;
   color: var(--main-color);
 }
+.column-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.column-description {
+    font-size: 17px;
+    line-height: 1.7em;
+    color: #777
+}
+.column-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.column-description > a:hover {
+    text-decoration: underline;
+}
