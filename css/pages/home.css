@@ -8,9 +8,8 @@
 /* components */
 @import "../components/button.css";
 @import "../components/clock.css";
-
+@import "../components/progress-bar.css";
 /* CUSTOM CSS */
-
 .hero {
   background-image: url(../../img/background.png);
   background-size: cover;
