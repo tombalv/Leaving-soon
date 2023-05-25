@@ -85,3 +85,24 @@ footer.container {
 .column-description > a:hover {
   text-decoration: underline;
 }
+
+footer .logo {
+  margin: 40px 0;
+}
+.text-trio {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.514);
+}
+.text-trio > span {
+}
+.text-trio > span > a {
+}
+.footer-bottom {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.514);
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
