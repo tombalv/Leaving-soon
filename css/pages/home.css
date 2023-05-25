@@ -93,9 +93,19 @@ footer .logo {
   text-align: center;
   color: rgba(255, 255, 255, 0.514);
 }
+
 .text-trio > span {
 }
+
 .text-trio > span > a {
+}
+
+.text-trio > .line {
+  display: inline-block;
+  background-color: #fff;
+  width: 2px;
+  height: 12px;
+  margin: 0 5px;
 }
 .footer-bottom {
   text-align: center;
@@ -105,4 +115,13 @@ footer .logo {
 footer a {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 700px) {
+  .text-trio > span {
+    display: block;
+    width: 100%;
+  }
+  .text-trio > .line {
+    display: none;
+  }
 }
